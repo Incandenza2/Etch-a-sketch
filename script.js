@@ -5,7 +5,7 @@ container.onmousedown = () => {
     mouseDown = 1;
 }
 
-container.onmouseup = () => {
+document.onmouseup = () => {
     mouseDown = 0;
 }
 
