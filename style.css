@@ -1,0 +1,28 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridButton {
+    padding: 8px;
+    margin: 32px;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+.square {
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.painted {
+    background-color: black;
+}
