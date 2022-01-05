@@ -29,6 +29,9 @@ function generateSquare(totalSquares) {
         if (mouseDown == 1) {
             square.classList.add("painted");
     }});
+    square.addEventListener("mousedown", () => {
+        square.classList.add("painted");
+    });
     container.appendChild(square); 
 }
 
